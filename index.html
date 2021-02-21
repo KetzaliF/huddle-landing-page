@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/af4acdd6c2.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 13px; text-align: center; line-height: 20px;color: rgb(214, 214, 214); background: rgb(0, 37, 46);}
+    .attribution a { color: rgba(255, 143, 216,.8); }
+  </style>
+</head>
+<body>
+
+    <header class="hero">
+      <img class="hero__logo" src="images/logo.svg" alt="logo Huddle">
+      <a href="#" class="hero__button">Try it free</a>
+    </header>
+
+    <main>
+      <div class="container about-us">
+        <h1 class="title">Build The Community Your Fans Will Love</h1>
+
+        <p class="text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+
+        <button class="cta">Get Started For Free</button>
+
+        <img class="about-us__img" src="images/screen-mockups.svg" alt="screen desktop and mobile">
+
+        <div class="about-us__numbers">
+          <div class="numbers">
+            <img class="numbers__icon" src="images/icon-communities.svg" alt="icon people">
+            <h2 class="numbers__number">1.4k+</h2>
+            <p class="numbers__text">Communities Formed</p>
+          </div>
+
+          <div class="numbers">
+            <img class="numbers__icon" src="images/icon-messages.svg" alt="icon people">
+            <h2 class="numbers__number">2.7m+</h2>
+            <p class="numbers__text">Messages Sent</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="articles">
+        <article class="article">
+          <img class="bg-wavy" src="images/bg-section-top-mobile-1.svg" alt="">
+          <div class="content-article">
+            <div class="article__text container">
+              <h3 class="article__text-subtitle">Grow Together</h3>
+              <p class="text text--modifier">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+            </div>
+            <img class="article__img container" src="images/illustration-grow-together.svg" alt="grow together">
+          </div>
+          <img class="bg-wavy" src="images/bg-section-bottom-mobile-1.svg" alt="">
+        </article>
+
+        <article class="article content-article content-article--modifier container">
+          <div class="article__text">
+            <h3 class="article__text-subtitle">Flowing Conversations</h3>
+            <p class="text text--modifier">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+          <img class="article__img" src="images/illustration-flowing-conversation.svg" alt="Flowing Conversations">
+        </article>
+
+        <article class="article">
+          <img class="bg-wavy" src="images/bg-section-top-mobile-2.svg" alt="">
+          <div class="content-article">
+            <div class="article__text container">
+              <h3 class="article__text-subtitle">Your Users</h3>
+              <p class="text text--modifier">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            <img class="article__img article__img--modifier" src="images/illustration-your-users.svg" alt="Your Users">
+          </div>
+          <img class="bg-wavy" src="images/bg-section-bottom-mobile-2.svg" alt="">
+        </article>
+      </div>
+
+      <div class="container container--modifier">
+        <h3 class="title">Ready To Build Your Community?</h3>
+        <button class="cta">Get Started For Free</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div style="height: auto; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 50%; width: 100%;"><path d="M-1.69,55.75 C183.96,-91.28 360.60,165.28 501.12,11.34 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(0, 37, 46);"></path></svg></div>
+      <div class="bg-footer">
+        <div class="footer__contact container">
+          <img class="footer__logo" src="images/logo-white.svg" alt="logo Huddle">
+          <p class="text text__footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+          <div class="phone contact">
+            <img class="icon" src="images/icon-phone.svg" alt="icon phone">
+            <p class="info">Phone: +1-543-123-4567</p>
+          </div>
+          <div class="email contact">
+            <img class="icon" src="images/icon-email.svg" alt="icon phone">
+            <p class="info">example@huddle.com</p>
+          </div>
+          <div class="socialmedia">
+            <a class="socialmedia__circle" href="#"><i class="fab fa-facebook-f socialmedia__icon"></i></a>
+            <a class="socialmedia__circle" href="#"><i class="fab fa-instagram socialmedia__icon"></i></a>
+            <a class="socialmedia__circle" href="#"><i class="fab fa-twitter socialmedia__icon"></i></a>
+          </div>
+        </div>
+        <div class="newsletter container">
+          <p class="newsletter__title">NEWSLETTER</p>
+          <p class="text text__footer">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+          <form class="newsletter__email">
+            <input type="email" class="newsletter__input">
+            <input type="submit" class="newsletter__submit cta" value="Subscribe">
+          </form>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+</body>
+</html>
